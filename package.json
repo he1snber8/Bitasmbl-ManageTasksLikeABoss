@@ -1,0 +1,1 @@
+// package.json skeleton\n{\n  "name": "task-app-api",\n  "version": "1.0.0",\n  "main": "src/server.js",\n  "scripts": {"start": "node src/server.js"},\n  "dependencies": {"express": "^4.x"}\n}\n// run npm install
