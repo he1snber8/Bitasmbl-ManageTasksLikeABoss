@@ -1,0 +1,1 @@
+// src/models/User.js\nconst mongoose = require("mongoose");\nconst UserSchema = new mongoose.Schema({ email: String, password: String });\nmodule.exports = mongoose.model("User", UserSchema);
