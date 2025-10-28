@@ -1,0 +1,1 @@
+// client/src/index.js\nimport React from "react";\nimport ReactDOM from "react-dom";\nimport { Provider } from "react-redux";\nimport store from "./store";\nimport App from "./App";\nReactDOM.render(<Provider store={store}><App/></Provider>, document.getElementById("root"));
