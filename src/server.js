@@ -1,0 +1,1 @@
+// src/server.js entry point\nconst express = require("express");\nconst app = express();\napp.use(express.json());\n// TODO: connect DB and mount routes\napp.listen(process.env.PORT||5000, ()=>console.log("Server running"));
