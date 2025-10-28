@@ -1,0 +1,1 @@
+// src/controllers/authController.js\nconst User = require("../models/User");\n// TODO: implement register and login with JWT and bcryptjs\nexports.register = async (req, res) => {};\nexports.login = async (req, res) => {};
