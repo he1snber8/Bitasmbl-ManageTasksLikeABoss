@@ -1,0 +1,1 @@
+// client/src/store.js\nimport { createStore, combineReducers, applyMiddleware } from "redux";\nimport thunk from "redux-thunk";\nimport taskReducer from "./reducers/taskReducer";\nconst rootReducer = combineReducers({ tasks: taskReducer });\nexport default createStore(rootReducer, applyMiddleware(thunk));
